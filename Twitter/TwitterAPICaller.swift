@@ -6,13 +6,12 @@
 //  Copyright © 2019 Dan. All rights reserved.
 //
 
+
 import UIKit
 import BDBOAuth1Manager
-//TXI2VIY38NgUBoj7oGsyLDbbvQzsCTfL11xRj7EHN0cxxyzjU0
 
-// API KEY QRWplcHUpubqiTG94asp3ESKJ
-class TwitterAPICaller: BDBOAuth1SessionManager { QRWplcHUpubqiTG94asp3ESKJ
-    static let client = TwitterAPICaller(baseURL: URL(string: "https://api.twitter.com"), consumerKey: "5lUJuO5AUpPUCez4ewYDFrtgh", consumerSecret: "s5ynGqXzstUZwFPxVyMDkYh197qvHOcVM3kwv1o2TKhS1avCdS")
+class TwitterAPICaller: BDBOAuth1SessionManager {
+    static let client = TwitterAPICaller(baseURL: URL(string: "https://api.twitter.com"), consumerKey: "OgcYlJi4yZXI83DHnCpYywBzD", consumerSecret: "c1jGcUUlSJYSQQny6868aE9N3tvPmjFI8K89TH2J9rgqZ4UcW1")
     var loginSuccess: (() -> ())?
     var loginFailure: ((Error) -> ())?
     
